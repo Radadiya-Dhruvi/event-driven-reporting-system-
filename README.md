@@ -8,7 +8,7 @@ The goal of this system is to automatically provision infrastructure, process in
 ---
 
 ## Architecture
-![Architecture Diagram](architecture-diagram.png)
+![Architecture Diagram](architecture_diagram.png)
 
 The system follows an event-driven architecture where data events trigger automated workflows.
 AWS services are provisioned using Terraform, and automation is handled through GitHub Actions.
